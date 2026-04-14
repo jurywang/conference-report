@@ -1,0 +1,18 @@
+# Per-run artifacts: video files, frames, PPTs — too heavy for git.
+workspace/*/video.*
+workspace/*/*.vtt
+workspace/*/*.srt
+workspace/*/*.mp4
+workspace/*/*.m4a
+workspace/*/frames/
+workspace/*/gifs/
+workspace/*/*.pptx
+workspace/*/*.pdf
+# Keep the small JSON / markdown artifacts for review:
+# workspace/<id>/transcript.json
+# workspace/<id>/chapters.json
+# workspace/<id>/features_candidates.json
+# workspace/<id>/features_selected.json
+# workspace/<id>/commentary/*.md
+__pycache__/
+*.pyc
