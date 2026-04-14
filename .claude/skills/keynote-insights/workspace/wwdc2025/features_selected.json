@@ -1,0 +1,14 @@
+[
+  {
+    "id": "live-translation",
+    "title_en": "Live Translation on AirPods",
+    "title_zh": "AirPods 实时翻译",
+    "presenter": "Craig Federighi",
+    "start_ts": 1320.0,
+    "end_ts": 1500.0,
+    "chapter_source": "transcript-split",
+    "one_line_summary": "AirPods use on-device models to translate face-to-face conversations in real time, with Messages / FaceTime integrations.",
+    "keywords": ["Live Translation", "AirPods", "Apple Intelligence", "Messages", "FaceTime"],
+    "needs_subdivision": false
+  }
+]

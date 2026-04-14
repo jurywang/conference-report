@@ -1,0 +1,69 @@
+{
+  "keynote_tag": "WWDC 2025",
+  "cover_title": "WWDC 2025 Keynote 洞察",
+  "cover_subtitle": "从 Apple Intelligence 的下沉看行业冲击 · 首期：Live Translation",
+  "source_url": "https://developer.apple.com/videos/play/wwdc2025/101/",
+  "features": [
+    {
+      "id": "live-translation",
+      "title_en": "Live Translation on AirPods",
+      "section_tag": "Apple Intelligence · iOS 26",
+      "thesis_zh": "苹果正式吞并翻译机品类：10 亿 AirPods 用户端侧实时翻译",
+      "hero": "frames/live-translation/best_0.png",
+      "impact_bullets": [
+        "对讯飞/时空壶/Pocketalk 等专用翻译机：失去『离线 + 免手持』两项关键卖点，品类面临结构性挤压",
+        "对云端翻译 API：C 端语音翻译流量下移到端侧，Foundation Models 开放后 DeepL/Google Translate 的付费 SaaS 模型被改写",
+        "对会议/跨境协作 SaaS：Zoom/Teams 的付费字幕翻译模块差异化受损，小型跨境团队硬件门槛降至一对耳机"
+      ],
+      "quotes": [
+        {
+          "text": "Live Translation could become one of the most important business tools Apple has ever shipped.",
+          "source": "9to5Mac · Apple @ Work",
+          "url": "https://9to5mac.com/2025/10/04/live-translation-with-airpods-could-reshape-global-business-communication/"
+        },
+        {
+          "text": "苹果牌翻译机——AirPods Pro 2 / AirPods 4 也将支持实时翻译，模型下载到本机后可离线运行。",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/0/881/716.htm"
+        },
+        {
+          "text": "In 2025 and 2026 there is virtually no chance this replaces human translators for legal, medical or highly nuanced situations.",
+          "source": "AppleInsider",
+          "url": "https://appleinsider.com/articles/25/06/06/apple-intelligence-translation-for-users-new-ai-tools-for-developers-coming-at-wwdc"
+        }
+      ]
+    }
+  ],
+  "closing": {
+    "title": "本届 Keynote · 三大主题",
+    "themes": [
+      [
+        "Apple Intelligence 下沉到系统层",
+        "端侧 Foundation Models 免费给开发者",
+        [
+          "中小 App 拿到免费推理，告别按 token 付费",
+          "云端 LLM 调用量结构性下移",
+          "插件/扩展生态在 iOS 侧回暖"
+        ]
+      ],
+      [
+        "硬件 × AI：耳机不再只是发声器",
+        "AirPods 成为翻译/健康的端侧 AI 载体",
+        [
+          "翻译机 / 助听器 / 运动辅导品类面临重定义",
+          "Apple 周边配件的 AI 价值锚重新锚定到 AirPods",
+          "开发者被鼓励围绕 AirPods 做多模态输入"
+        ]
+      ],
+      [
+        "Liquid Glass 视觉语言统一全平台",
+        "iOS / macOS / visionOS 共享同一套材质",
+        [
+          "第三方 App 迁移成本下降，跨设备一致性提升",
+          "设计系统供应商（Figma 插件、主题模板）需快速适配",
+          "旧风格（Neumorphism / Glassmorphism 2019 版）加速淘汰"
+        ]
+      ]
+    ]
+  }
+}

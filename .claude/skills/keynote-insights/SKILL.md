@@ -75,14 +75,36 @@ Chrome 扩展截图只能拿到浏览器视口某一瞬间的画面，关键 UI 
 ```
 用户：帮我把 WWDC 2025 keynote 做成 PPT 报告
 Claude：
-  1) bash .claude/skills/keynote-insights/scripts/fetch_video.sh <url> workspace/wwdc2025
-  2) python3 .claude/skills/keynote-insights/scripts/fetch_apple_transcript.py ...
-  3) python3 .claude/skills/keynote-insights/scripts/segment_features.py workspace/wwdc2025
-  4) 展示 features_candidates.json 给用户勾选
-  5) 对所选特性并行跑 extract_frames / pick_best_frame / make_gif / analyst_roundup
-  6) python3 .claude/skills/keynote-insights/scripts/build_ppt.py workspace/wwdc2025
-  7) 交付 workspace/wwdc2025/wwdc2025_insights.pptx + PDF 预览
+  Stage A（只需元数据，沙箱里也能跑）：
+    bash .claude/skills/keynote-insights/scripts/stage_a.sh \
+         https://developer.apple.com/videos/play/wwdc2025/101/ \
+         workspace/wwdc2025
+    → chapters.json / features_candidates.json
+    → 展示清单给用户勾选 → features_selected.json
+
+  Stage B（需要本地有 video.mp4；在网络可达的机器上跑）：
+    bash .claude/skills/keynote-insights/scripts/fetch_video.sh <youtube_url> workspace/wwdc2025
+    bash .claude/skills/keynote-insights/scripts/stage_b.sh workspace/wwdc2025 live-translation
+    → frames/<id>/f_*.png + _sprite.png
+    → Claude 看 _sprite.png 写 best.json → 再次运行 stage_b.sh → best_*.png + gif
+    python3 .claude/skills/keynote-insights/scripts/analyst_roundup.py plan workspace/wwdc2025 live-translation
+    → Claude WebSearch → commentary/<id>.md
+    → Claude 合成 slides.json（thesis_zh / impact_bullets / quotes）
+    python3 .claude/skills/keynote-insights/scripts/build_ppt.py workspace/wwdc2025
+    → wwdc2025_insights.pptx
 ```
+
+## 沙箱 / 网络受限时的降级策略
+
+如果当前环境无法下载视频（yt-dlp 对 YouTube / Apple HLS 返回 403 / 证书错误）：
+
+1. **Stage A 仍然可跑**：`fetch_apple_transcript.py` 支持本地 HTML 路径作为第一参数，先用 `WebFetch` 把页面 dump 到磁盘，再跑解析器。测试 fixture
+   `scripts/tests/fixtures/wwdc2025_101.html` 就是一份完整的 WWDC 2025 Keynote 页。
+2. **Stage B 延后**：让用户在本地网络 OK 的机器上跑 `fetch_video.sh + stage_b.sh`，把
+   `frames/<id>/best_*.png` 拷回工作目录。
+3. **做 PPT 演示占位**：`scripts/make_placeholder_hero.py <png_path> <line1> [<line2>]`
+   生成一张 1920×1080 带 "PLACEHOLDER" 红条的占位图，让 `build_ppt.py`
+   能出完整 4 页 PPT 预览版式；正式交付前必须替换为真实 best_0.png。
 
 ## 首次运行准备
 
