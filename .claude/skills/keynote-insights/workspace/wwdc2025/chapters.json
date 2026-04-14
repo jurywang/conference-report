@@ -1,0 +1,50 @@
+[
+  {
+    "index": 1,
+    "title": "Introduction",
+    "start_ts": 0.0,
+    "end_ts": 228.0
+  },
+  {
+    "index": 2,
+    "title": "iOS",
+    "start_ts": 228.0,
+    "end_ts": 2495.0
+  },
+  {
+    "index": 3,
+    "title": "watchOS",
+    "start_ts": 2495.0,
+    "end_ts": 2928.0
+  },
+  {
+    "index": 4,
+    "title": "tvOS",
+    "start_ts": 2928.0,
+    "end_ts": 3215.0
+  },
+  {
+    "index": 5,
+    "title": "macOS",
+    "start_ts": 3215.0,
+    "end_ts": 3983.0
+  },
+  {
+    "index": 6,
+    "title": "visionOS",
+    "start_ts": 3983.0,
+    "end_ts": 4457.0
+  },
+  {
+    "index": 7,
+    "title": "iPadOS",
+    "start_ts": 4457.0,
+    "end_ts": 5165.0
+  },
+  {
+    "index": 8,
+    "title": "Developers",
+    "start_ts": 5165.0,
+    "end_ts": 5546.0
+  }
+]

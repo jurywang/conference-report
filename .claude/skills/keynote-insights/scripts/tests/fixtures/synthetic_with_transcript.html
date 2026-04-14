@@ -1,0 +1,36 @@
+<!doctype html>
+<html><body>
+<!-- Synthetic fixture: mimics an Apple session page AFTER play.js has
+     run transformTranscriptText() — sentences appear as <a class="sentence"
+     data-start-time=...>. Used to prove fetch_apple_transcript.py handles
+     the transcript-available path. -->
+
+<ul class="chapters-list">
+  <li class="chapter-item" data-start-time="0">
+    0:00:00 - <a class="jump-to-time"
+                 data-start-time="0"
+                 data-chapter-end-time="60"
+                 data-chapter-lenght="60"
+                 data-chapter-index="1">Opening</a>
+  </li>
+  <li class="chapter-item" data-start-time="60">
+    0:01:00 - <a class="jump-to-time"
+                 data-start-time="60"
+                 data-chapter-end-time="120"
+                 data-chapter-lenght="60"
+                 data-chapter-index="2">Live Translation Demo</a>
+  </li>
+</ul>
+
+<section id="transcript-content">
+  <p>
+    <a class="sentence" data-start-time="0">Welcome to WWDC.</a>
+    <a class="sentence" data-start-time="5">Today we are introducing something special.</a>
+  </p>
+  <p>
+    <a class="sentence" data-start-time="62">Let's talk about Live Translation.</a>
+    <a class="sentence" data-start-time="70">Your AirPods now translate in real time.</a>
+    <a class="sentence" data-start-time="85">This works across Messages and FaceTime.</a>
+  </p>
+</section>
+</body></html>

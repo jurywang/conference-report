@@ -1,0 +1,98 @@
+[
+  {
+    "id": "introduction",
+    "title_en": "Introduction",
+    "title_zh": "",
+    "presenter": "",
+    "start_ts": 0.0,
+    "end_ts": 228.0,
+    "chapter_source": "apple",
+    "one_line_summary": "",
+    "keywords": [],
+    "needs_subdivision": false
+  },
+  {
+    "id": "ios",
+    "title_en": "iOS",
+    "title_zh": "",
+    "presenter": "",
+    "start_ts": 228.0,
+    "end_ts": 2495.0,
+    "chapter_source": "apple",
+    "one_line_summary": "",
+    "keywords": [],
+    "needs_subdivision": true
+  },
+  {
+    "id": "watchos",
+    "title_en": "watchOS",
+    "title_zh": "",
+    "presenter": "",
+    "start_ts": 2495.0,
+    "end_ts": 2928.0,
+    "chapter_source": "apple",
+    "one_line_summary": "",
+    "keywords": [],
+    "needs_subdivision": true
+  },
+  {
+    "id": "tvos",
+    "title_en": "tvOS",
+    "title_zh": "",
+    "presenter": "",
+    "start_ts": 2928.0,
+    "end_ts": 3215.0,
+    "chapter_source": "apple",
+    "one_line_summary": "",
+    "keywords": [],
+    "needs_subdivision": true
+  },
+  {
+    "id": "macos",
+    "title_en": "macOS",
+    "title_zh": "",
+    "presenter": "",
+    "start_ts": 3215.0,
+    "end_ts": 3983.0,
+    "chapter_source": "apple",
+    "one_line_summary": "",
+    "keywords": [],
+    "needs_subdivision": true
+  },
+  {
+    "id": "visionos",
+    "title_en": "visionOS",
+    "title_zh": "",
+    "presenter": "",
+    "start_ts": 3983.0,
+    "end_ts": 4457.0,
+    "chapter_source": "apple",
+    "one_line_summary": "",
+    "keywords": [],
+    "needs_subdivision": true
+  },
+  {
+    "id": "ipados",
+    "title_en": "iPadOS",
+    "title_zh": "",
+    "presenter": "",
+    "start_ts": 4457.0,
+    "end_ts": 5165.0,
+    "chapter_source": "apple",
+    "one_line_summary": "",
+    "keywords": [],
+    "needs_subdivision": true
+  },
+  {
+    "id": "developers",
+    "title_en": "Developers",
+    "title_zh": "",
+    "presenter": "",
+    "start_ts": 5165.0,
+    "end_ts": 5546.0,
+    "chapter_source": "apple",
+    "one_line_summary": "",
+    "keywords": [],
+    "needs_subdivision": true
+  }
+]

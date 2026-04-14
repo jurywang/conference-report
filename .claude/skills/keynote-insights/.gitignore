@@ -8,6 +8,9 @@ workspace/*/frames/
 workspace/*/gifs/
 workspace/*/*.pptx
 workspace/*/*.pdf
+# apple_raw.html is just a cached raw page; the canonical copy lives in
+# scripts/tests/fixtures/ for regression testing.
+workspace/*/apple_raw.html
 # Keep the small JSON / markdown artifacts for review:
 # workspace/<id>/transcript.json
 # workspace/<id>/chapters.json
