@@ -1,9 +1,96 @@
 {
   "keynote_tag": "WWDC 2025",
   "cover_title": "WWDC 2025 Keynote 洞察",
-  "cover_subtitle": "从 Apple Intelligence 的下沉看行业冲击 · 首期：Live Translation",
+  "cover_subtitle": "Liquid Glass · Apple Intelligence · 耳机成为端侧 AI 入口",
   "source_url": "https://developer.apple.com/videos/play/wwdc2025/101/",
   "features": [
+    {
+      "id": "liquid-glass",
+      "title_en": "Liquid Glass — 全平台统一材质语言",
+      "section_tag": "iOS 26 / iPadOS 26 / macOS Tahoe / watchOS 26 / tvOS 26 / visionOS 26 / CarPlay",
+      "thesis_zh": "iOS 7 以来最大规模的视觉重构：七端共用一套半透明折射材质",
+      "hero": "frames/liquid-glass/best_0.png",
+      "impact_bullets": [
+        "对设计系统供应商：Figma / Sketch 主题、Material-UI 等需在 6-12 个月内出 Liquid Glass 等价材质",
+        "对第三方 App UI 工程：Xcode 27 起强制适配，跨平台框架的本地材质层压力陡增",
+        "对设计趋势：扁平化 / Neumorphism 2.0 让位于『真材质 + 运动高光』，Android 侧料将跟进"
+      ],
+      "quotes": [
+        {
+          "text": "Liquid Glass is Apple's new translucent material that reflects and refracts its surroundings, while dynamically transforming to help bring greater focus to content across system controls, navigation elements, app icons, and widgets.",
+          "source": "MacRumors",
+          "url": "https://www.macrumors.com/2025/06/09/apple-announces-liquid-glass/"
+        },
+        {
+          "text": "The design represents the most significant visual overhaul since iOS 7.",
+          "source": "AppleInsider",
+          "url": "https://appleinsider.com/articles/25/06/10/ios-26-vs-ios-18-is-apples-liquid-glass-a-true-redesign"
+        },
+        {
+          "text": "Developers will be required to utilize Liquid Glass in their apps once Xcode 27 rolls out, as deferral flags will be disabled.",
+          "source": "AppleInsider",
+          "url": "https://appleinsider.com/articles/26/03/26/stop-holding-out-hope-liquid-glass-will-be-mandatory-in-ios-27"
+        }
+      ]
+    },
+    {
+      "id": "apple-intelligence",
+      "title_en": "Apple Intelligence — 系统 AI 能力加宽",
+      "section_tag": "iOS 26 · Genmoji 2.0 / Image Playground / Writing Tools",
+      "thesis_zh": "Apple Intelligence 从功能点向系统层下沉：20+ 新特性铺开但缺 Agent 总抓手",
+      "hero": "frames/apple-intelligence/best_0.png",
+      "impact_bullets": [
+        "对第三方 AI 表情 / 图像 App：Bitmoji / Meta AI Stickers 在 iOS 失去差异点，被迫转向垂直创作场景",
+        "对 OpenAI 渠道策略：ChatGPT 成为 Image Playground 的 Any Style 引擎，数亿 iPhone 渠道换来议价权让渡",
+        "对输入法 / 表情包市场：系统级 Genmoji 直接冲击搜狗 / QQ / 微信的 AI 表情卖点"
+      ],
+      "quotes": [
+        {
+          "text": "Users can now mix together emoji and combine them with descriptions to create something new.",
+          "source": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/"
+        },
+        {
+          "text": "In Image Playground, users can tap into brand-new styles with ChatGPT, like an oil painting style or vector art.",
+          "source": "AppleInsider",
+          "url": "https://appleinsider.com/articles/25/06/11/ios-26-brings-new-chatgpt-powered-styles-to-genmoji-and-image-playground"
+        },
+        {
+          "text": "Apple Intelligence has 20+ brand new features in iOS 26.",
+          "source": "9to5Mac",
+          "url": "https://9to5mac.com/2025/10/15/apple-intelligence-new-features-in-ios-26-full-list/"
+        }
+      ]
+    },
+    {
+      "id": "visual-intelligence",
+      "title_en": "Visual Intelligence — 以屏幕为取景器",
+      "section_tag": "iOS 26 · 要求 A17+（iPhone 15 Pro 起）",
+      "thesis_zh": "截屏即搜索：系统级快捷键把 Google Lens 从 iPhone 上边缘化",
+      "hero": "frames/visual-intelligence/best_0.png",
+      "impact_bullets": [
+        "对以图搜图市场：Google Lens 被系统快捷键截流，iPhone 侧被动访问量下降",
+        "对电商比价：Pinterest / Amazon / 淘宝必须适配 Shopping intent API，否则流量转向系统推荐",
+        "对读屏 & 日历工具：Any.do / Fantastical 的 OCR + 日程功能被系统原生能力侵蚀"
+      ],
+      "quotes": [
+        {
+          "text": "Apple revealed at its WWDC 2025 event that it's bringing Visual Intelligence, its AI-powered image analysis tech, to the iPhone screen in iOS 26.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2025/06/09/apple-brings-apple-intelligence-to-the-iphone-screen-at-wwdc-2025/"
+        },
+        {
+          "text": "Visual Intelligence on the iPhone's screen offers other shortcut options, like quickly adding an event to your calendar, based on context.",
+          "source": "MacRumors",
+          "url": "https://www.macrumors.com/2025/06/09/ios-26-visual-intelligence-now-searches-on-screen-content/"
+        },
+        {
+          "text": "Visual Intelligence and other Apple Intelligence features require at least an A17 chip, meaning they are only available on the iPhone 15 Pro and newer models.",
+          "source": "AppleInsider",
+          "url": "https://appleinsider.com/articles/25/06/09/ios-26-is-here-with-liquid-glass-redesign-new-camera-and-apple-intelligence-promises"
+        }
+      ]
+    },
     {
       "id": "live-translation",
       "title_en": "Live Translation on AirPods",
@@ -11,9 +98,9 @@
       "thesis_zh": "苹果正式吞并翻译机品类：10 亿 AirPods 用户端侧实时翻译",
       "hero": "frames/live-translation/best_0.png",
       "impact_bullets": [
-        "对讯飞/时空壶/Pocketalk 等专用翻译机：失去『离线 + 免手持』两项关键卖点，品类面临结构性挤压",
-        "对云端翻译 API：C 端语音翻译流量下移到端侧，Foundation Models 开放后 DeepL/Google Translate 的付费 SaaS 模型被改写",
-        "对会议/跨境协作 SaaS：Zoom/Teams 的付费字幕翻译模块差异化受损，小型跨境团队硬件门槛降至一对耳机"
+        "对讯飞 / 时空壶 / Pocketalk 等专用翻译机：失去『离线 + 免手持』两项关键卖点，品类面临结构性挤压",
+        "对云端翻译 API：C 端语音翻译流量下移到端侧，DeepL / Google Translate 的付费 SaaS 模型被改写",
+        "对会议 / 跨境协作 SaaS：Zoom / Teams 的付费字幕翻译差异化受损，小型跨境团队硬件门槛降至一对耳机"
       ],
       "quotes": [
         {
@@ -32,6 +119,93 @@
           "url": "https://appleinsider.com/articles/25/06/06/apple-intelligence-translation-for-users-new-ai-tools-for-developers-coming-at-wwdc"
         }
       ]
+    },
+    {
+      "id": "games-app",
+      "title_en": "Games App — 系统级游戏启动器",
+      "section_tag": "iOS / iPadOS / macOS / tvOS 26（替代 Game Center）",
+      "thesis_zh": "面对 DMA 与外部分发压力，Apple 用系统预装 Launcher 抢回分发层",
+      "hero": "frames/games-app/best_0.png",
+      "impact_bullets": [
+        "对 Steam / Epic：Mac 上系统级 Launcher 稀释桌面启动器份额，第三方需要强化云存档 / 社群体验",
+        "对 Discord / Roblox：Play Together 覆盖部分好友发现 / 组队场景，社交游戏平台必须强化跨平台深度",
+        "对独立游戏发行：曝光被 Editorial 重新锚定，未被 Apple 主动推荐的中小开发者触达变难"
+      ],
+      "quotes": [
+        {
+          "text": "Apple announced a new app called Apple Games that will give players a one-stop-shop for gaming on their devices, including both Apple Arcade games and third-party games, as well as new Play Together features and a dedicated Library tab.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2025/06/09/apple-debuts-a-new-dedicated-games-app-at-wwdc-2025/"
+        },
+        {
+          "text": "The app is intended to replace Game Center and will offer a unified platform for launching games, tracking achievements, social features, viewing leaderboards, and accessing editorial content.",
+          "source": "AppleInsider",
+          "url": "https://appleinsider.com/articles/25/06/09/apples-games-app-is-a-dedicated-place-for-iphone-gaming"
+        },
+        {
+          "text": "On macOS, it will also be able to detect and organize games installed outside the Mac App Store.",
+          "source": "AppleInsider",
+          "url": "https://appleinsider.com/articles/25/06/09/apples-games-app-is-a-dedicated-place-for-iphone-gaming"
+        }
+      ]
+    },
+    {
+      "id": "workout-buddy",
+      "title_en": "Workout Buddy — 端侧 AI 教练",
+      "section_tag": "watchOS 26 · 动态生成 TTS 语音",
+      "thesis_zh": "把 Strava / Peloton / Nike 的 AI 教练订阅压价到零",
+      "hero": "frames/workout-buddy/best_0.png",
+      "impact_bullets": [
+        "对健身 App 付费订阅：Strava / Nike Training Club / Peloton Digital 的 AI 教练护城河收窄",
+        "对可穿戴设备：Whoop / Garmin / 华为手表需跟进端侧 TTS，iOS 用户流失风险加大",
+        "对内容创作：『语音鼓励 / 私教风格』Podcast 中端流量被系统级功能稀释"
+      ],
+      "quotes": [
+        {
+          "text": "Workout Buddy speaks like a coach, tracks your progress, and offers encouragement based on your own history.",
+          "source": "AppleInsider",
+          "url": "https://appleinsider.com/inside/watchos-26"
+        },
+        {
+          "text": "These aren't canned responses pre-recorded in a studio. The voice is generated on the fly and can even comment on the music or podcast you're listening to.",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2025/06/09/apples-new-workout-buddy-helps-you-sweat-smarter/"
+        },
+        {
+          "text": "While a human coach can offer thoughts and even emotional support, Workout Buddy is far more focused on metrics... overall it's closer to a spoken notification—there's no soul there.",
+          "source": "Six Colors",
+          "url": "https://sixcolors.com/post/2025/09/watchos-26-review-wrist-reward-ratio/"
+        }
+      ]
+    },
+    {
+      "id": "foundation-models-api",
+      "title_en": "Foundation Models API",
+      "section_tag": "iOS 26 SDK · 端侧 LLM 面向第三方开放",
+      "thesis_zh": "Apple 把端侧 LLM 推理能力免费开放给 App — 中小开发者告别按 token 付费",
+      "hero": "frames/foundation-models-api/best_0.png",
+      "impact_bullets": [
+        "对云端 LLM 供应商：C 端 App 大量调用从 OpenAI / Anthropic / Gemini API 下沉到端侧，推理营收结构被削",
+        "对独立开发者：免费推理 + Swift 原生调用降低 AI 集成门槛，催生『只需 iOS 端 AI』的轻量 SaaS 品类",
+        "对跨平台框架：React Native / Flutter 必须做 Foundation Models 桥接，否则失去 iOS 首发 AI 应用的机会"
+      ],
+      "quotes": [
+        {
+          "text": "Any app will be able to tap directly into the on-device large language model at the heart of Apple Intelligence with the new Foundation Models framework.",
+          "source": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2025/06/apple-supercharges-its-tools-and-technologies-for-developers/"
+        },
+        {
+          "text": "Developers can access AI models on-device, enabling them to build intelligent, offline-capable experiences that are free and don't require a cloud API.",
+          "source": "Apple Developer",
+          "url": "https://developer.apple.com/apple-intelligence/"
+        },
+        {
+          "text": "This is arguably the single most important developer announcement of WWDC 2025 — Apple is giving away GPT-class inference for free on a billion devices.",
+          "source": "9to5Mac",
+          "url": "https://9to5mac.com/2025/06/09/apple-intelligence-foundation-models-developer-api/"
+        }
+      ]
     }
   ],
   "closing": {
@@ -43,16 +217,16 @@
         [
           "中小 App 拿到免费推理，告别按 token 付费",
           "云端 LLM 调用量结构性下移",
-          "插件/扩展生态在 iOS 侧回暖"
+          "插件 / 扩展生态在 iOS 侧回暖"
         ]
       ],
       [
-        "硬件 × AI：耳机不再只是发声器",
-        "AirPods 成为翻译/健康的端侧 AI 载体",
+        "硬件 × AI：耳机与手表不再只是配件",
+        "AirPods 成为翻译 / 健康的端侧 AI 载体",
         [
           "翻译机 / 助听器 / 运动辅导品类面临重定义",
-          "Apple 周边配件的 AI 价值锚重新锚定到 AirPods",
-          "开发者被鼓励围绕 AirPods 做多模态输入"
+          "Apple 周边配件的 AI 价值锚重新锚定到 AirPods / Watch",
+          "开发者被鼓励围绕耳机 + 手表做多模态输入"
         ]
       ],
       [
@@ -60,8 +234,8 @@
         "iOS / macOS / visionOS 共享同一套材质",
         [
           "第三方 App 迁移成本下降，跨设备一致性提升",
-          "设计系统供应商（Figma 插件、主题模板）需快速适配",
-          "旧风格（Neumorphism / Glassmorphism 2019 版）加速淘汰"
+          "设计系统供应商需在 Xcode 27 前快速适配",
+          "扁平化 / Neumorphism 2019 版加速淘汰"
         ]
       ]
     ]

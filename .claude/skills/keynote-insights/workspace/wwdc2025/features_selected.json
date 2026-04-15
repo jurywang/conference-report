@@ -1,5 +1,41 @@
 [
   {
+    "id": "liquid-glass",
+    "title_en": "Liquid Glass",
+    "title_zh": "Liquid Glass 视觉语言",
+    "presenter": "Alan Dye",
+    "start_ts": 260.0,
+    "end_ts": 440.0,
+    "chapter_source": "transcript-split",
+    "one_line_summary": "A new cross-OS material design language spanning iOS 26 / iPadOS 26 / macOS Tahoe / visionOS 26.",
+    "keywords": ["Liquid Glass", "iOS 26", "macOS Tahoe", "design language"],
+    "needs_subdivision": false
+  },
+  {
+    "id": "apple-intelligence",
+    "title_en": "Apple Intelligence (Consumer)",
+    "title_zh": "Apple Intelligence 系统 AI 升级",
+    "presenter": "Craig Federighi",
+    "start_ts": 540.0,
+    "end_ts": 900.0,
+    "chapter_source": "transcript-split",
+    "one_line_summary": "System-level AI with Genmoji 2.0, Image Playground, Writing Tools, and smarter Siri with visual context.",
+    "keywords": ["Apple Intelligence", "Genmoji", "Image Playground", "Writing Tools", "Siri"],
+    "needs_subdivision": false
+  },
+  {
+    "id": "visual-intelligence",
+    "title_en": "Visual Intelligence",
+    "title_zh": "视觉智能（Visual Intelligence）",
+    "presenter": "Craig Federighi",
+    "start_ts": 960.0,
+    "end_ts": 1200.0,
+    "chapter_source": "transcript-split",
+    "one_line_summary": "Screen-aware on-device assistant: identify objects on screen, translate text, ask Siri about anything you see.",
+    "keywords": ["Visual Intelligence", "Apple Intelligence", "Siri", "screen awareness"],
+    "needs_subdivision": false
+  },
+  {
     "id": "live-translation",
     "title_en": "Live Translation on AirPods",
     "title_zh": "AirPods 实时翻译",
@@ -9,6 +45,42 @@
     "chapter_source": "transcript-split",
     "one_line_summary": "AirPods use on-device models to translate face-to-face conversations in real time, with Messages / FaceTime integrations.",
     "keywords": ["Live Translation", "AirPods", "Apple Intelligence", "Messages", "FaceTime"],
+    "needs_subdivision": false
+  },
+  {
+    "id": "games-app",
+    "title_en": "Games App",
+    "title_zh": "Games 游戏中心 App",
+    "presenter": "Susan Prescott",
+    "start_ts": 1700.0,
+    "end_ts": 1880.0,
+    "chapter_source": "transcript-split",
+    "one_line_summary": "A dedicated Games app for iPhone / iPad / Mac aggregating library, Apple Arcade, friends activity, and game overlay.",
+    "keywords": ["Games app", "Apple Arcade", "game overlay", "library"],
+    "needs_subdivision": false
+  },
+  {
+    "id": "workout-buddy",
+    "title_en": "Workout Buddy",
+    "title_zh": "Workout Buddy 智能运动教练",
+    "presenter": "Sumbul Desai",
+    "start_ts": 2540.0,
+    "end_ts": 2750.0,
+    "chapter_source": "transcript-split",
+    "one_line_summary": "watchOS 26 personal trainer using Apple Intelligence — real-time voice coaching tuned to your workout history.",
+    "keywords": ["Workout Buddy", "watchOS 26", "Apple Watch", "Apple Intelligence"],
+    "needs_subdivision": false
+  },
+  {
+    "id": "foundation-models-api",
+    "title_en": "Foundation Models API",
+    "title_zh": "Foundation Models API（端侧大模型开放）",
+    "presenter": "Susan Prescott",
+    "start_ts": 5180.0,
+    "end_ts": 5400.0,
+    "chapter_source": "transcript-split",
+    "one_line_summary": "Apple's on-device foundation models are opened to third-party app developers, free and offline, via Swift-native API.",
+    "keywords": ["Foundation Models", "on-device LLM", "Swift", "Apple Intelligence", "developers"],
     "needs_subdivision": false
   }
 ]
